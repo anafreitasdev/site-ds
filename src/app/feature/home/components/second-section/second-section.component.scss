@@ -1,0 +1,33 @@
+.second-section {
+  min-height: 485px;
+  background: linear-gradient(180deg, #edf0ff 0%, #ffffff 100%);
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  gap: 171px;
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  h1 {
+    font-family: Rawline;
+    font-size: 41.8px;
+    font-weight: 300;
+    line-height: 48.07px;
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 952px) {
+  .second-section {
+    flex-direction: column;
+    gap: 80px;
+  }
+}
+

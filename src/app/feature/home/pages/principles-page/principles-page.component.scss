@@ -1,0 +1,38 @@
+section {
+    padding: 40px;
+  }
+  
+  ul li {
+    font-family: Rawline;
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 23.26px;
+    text-align: left;
+  }
+  span {
+    font-family: Rawline;
+    font-size: 16.8px;
+    font-weight: 600;
+    line-height: 23.17px;
+    text-align: left;
+  }
+  
+
+  
+  .informacao{
+      display: flex;
+      background-color: #F8F8F8;
+      height: 64px;
+      align-items: center;
+      padding: 20px 16px;
+      .icones{
+          display: flex;
+          gap: 8px;
+          margin-left: 27px;
+      }
+  }
+  
+  mat-icon{
+      color: #1351B4;
+  }
+  

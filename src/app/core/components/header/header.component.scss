@@ -1,0 +1,56 @@
+:host {
+  .header-toolbar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 39px 16px 41px;
+    align-items: start;
+    height: auto;
+  }
+
+  .logo {
+    display: flex;
+    img {
+      margin-left: 13px;
+    }
+  }
+
+  .title {
+    font-family: Rawline;
+    font-size: 24.19px;
+    font-weight: 400;
+    line-height: 33.49px;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .subtitle {
+    font-family: Rawline;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.38px;
+    text-align: left;
+    color: #555555;
+    margin: 0px 0px 0px 48px;
+  }
+
+  mat-icon{
+   color: #1351B4;
+  }
+
+  @media (max-width: 952px) {
+    .title {
+      font-size: 10px;
+    }
+    .subtitle{
+      font-size: 8px;
+    }
+  }
+}
