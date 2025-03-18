@@ -23,6 +23,18 @@
     }
   }
 
+  .explore{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .item-expore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 583px ;
+  }
+
 
   .col {
     display: flex;
