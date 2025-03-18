@@ -10,6 +10,7 @@ import { ThirdSectionComponent } from './home/components/third-section/third-sec
 import { AboutPageComponent } from './home/pages/about-page/about-page.component';
 import { MatIconModule } from '@angular/material/icon';
 import { PrinciplesPageComponent } from './home/pages/principles-page/principles-page.component';
+import { CfcDsModule } from 'cfc-ds';
 
 
 @NgModule({
@@ -19,6 +20,8 @@ import { PrinciplesPageComponent } from './home/pages/principles-page/principles
     FeatureRoutingModule,
     GovDsModule,
     MatIconModule,
+    CfcDsModule,
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class FeatureModule { }
