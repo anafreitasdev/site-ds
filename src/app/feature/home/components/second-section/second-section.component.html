@@ -9,6 +9,10 @@
       reutilização garante consistência visual e funcional em todas as
       interfaces digitais do CFC.
     </p>
-    <ds-button>Explore os componentes</ds-button>
+    <cfc-button
+      label="Explore os componentes"
+      [type]="ButtonType.primary"
+      (onClick)="navigateToComponents()">
+    </cfc-button>
   </div>
 </section>
