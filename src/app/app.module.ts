@@ -7,6 +7,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { CoreModule } from './core/core.module';
 import { FeatureModule } from './feature/feature.module';
 import { GovDsModule } from './core/components/gov-ds/gov-ds.module';
+import { CfcDsModule } from 'cfc-ds';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,7 +16,8 @@ import { GovDsModule } from './core/components/gov-ds/gov-ds.module';
     AppRoutingModule,
     CoreModule,
     FeatureModule,
-    GovDsModule
+    GovDsModule,
+    CfcDsModule
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],

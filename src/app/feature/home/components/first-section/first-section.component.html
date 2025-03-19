@@ -6,7 +6,11 @@
       de interfaces digitais padronizadas, intuitivas e acessíveis para todos os
       usuários.
     </p>
-    <ds-magic-button routerLink="/sobre">Saiba mais</ds-magic-button>
+    <cfc-button
+      label="Saiba mais"
+      [type]="ButtonType.primary"
+      (onClick)="navigate('/sobre')">
+    </cfc-button>
   </div>
   <div class="col">
     <h1>Entenda o Sistema</h1>
@@ -14,7 +18,11 @@
       Nossos princípios norteadores garantem a construção de uma experiência
       digital coesa, eficiente e centrada no usuário.
     </p>
-    <ds-button routerLink="/principios">Conheça nossos princípios</ds-button>
+    <cfc-button
+      label="Conheça nossos princípios"
+      [type]="ButtonType.secondary"
+      (onClick)="navigate('/principios')">
+    </cfc-button>
   </div>
   <img src="assets/ilustracoes/ilustra01.svg" />
 </section>
