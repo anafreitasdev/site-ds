@@ -17,6 +17,11 @@ const routes: Routes = [
     path: 'principios',
     component: PrinciplesPageComponent,
   },
+  {
+    path: 'templates',
+    loadChildren: () =>
+      import('../feature/templates/templates.module').then((m) => m.TemplatesModule),
+  }
 ];
 
 @NgModule({

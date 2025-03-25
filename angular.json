@@ -41,7 +41,9 @@
               "src/styles.scss",
               "@govbr-ds/core/dist/core.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@govbr-ds/webcomponents/dist/webcomponents.umd.min.js"
+            ]
           },
           "configurations": {
             "production": {

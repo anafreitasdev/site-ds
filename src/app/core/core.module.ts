@@ -7,6 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GovDsModule } from './components/gov-ds/gov-ds.module';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 
@@ -14,6 +15,7 @@ import { GovDsModule } from './components/gov-ds/gov-ds.module';
   declarations: [
     HeaderComponent,
     FooterComponent,
+    TabsComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +27,7 @@ import { GovDsModule } from './components/gov-ds/gov-ds.module';
   exports: [
     HeaderComponent,
     FooterComponent,
+    TabsComponent
   ],
 })
 export class CoreModule { }

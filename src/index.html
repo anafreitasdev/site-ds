@@ -16,6 +16,25 @@
     />
   </head>
   <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        console.log("DOM totalmente carregado, carregando script GovBR");
+
+        const govScript = document.createElement("script");
+        govScript.src =
+          "https://docs-ds.estaleiro.serpro.gov.br/govbr-ds-core/dist/core.min.js";
+        govScript.defer = true;
+        govScript.onload = () => {
+          console.log("Script GovBR carregado e pronto para uso");
+          window.govBrScriptLoaded = true;
+        };
+
+        document.body.appendChild(govScript);
+
+      });
+
+
+    </script>
     <app-root></app-root>
   </body>
 </html>
